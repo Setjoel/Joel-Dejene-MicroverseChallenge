@@ -24,3 +24,17 @@
   display:bock;
 
 }
+
+#tribute {
+  width: 60%;
+  margin: auto;
+  line-height: 25px;
+}
+
+li {
+  margin-left: -20px;
+}
+
+footer {
+  text-align: center;
+}
