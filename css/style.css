@@ -1,37 +1,26 @@
-html *{
-	box-sizing: border-box;
-	font-family: sans-serif;
-	//margin:  0;
+#main{
+
+  background-color: #f5f5f5;
+  margin:20px 20px 20px 20px;
+  padding: 10px 20px;
+
 }
 
-body{
-	background:  lightblue;
-	display:  flex;
-	flex-direction:  column;
-	justify-content: center;
-	align-items: center;
+#title{
+  text-align: center;
+  display: block;
 }
+#img-div{
+  margin:10px;
+  background-color: #fff;
+}
+#image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+#img-caption{
+  text-align: center;
+  display:bock;
 
-main{
-	width:  70vw;
-	background:  #fff;
-	border-radius:  4px;
-}
-
-#description{
-	text-align: center;
-}
-main p{
-	display:  grid;
-	grid-template-columns: 50% 50%;
-}
-main p *{
-	padding:  10px;
-}
-
-input, select, fieldset, textarea{
-	width:  20vw;
-}
-label{
-	text-align: right;
 }
